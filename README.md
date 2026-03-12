@@ -1,20 +1,15 @@
-<<<<<<< HEAD
-Title: Price Filter Automation
-The Problem: E-commerce owners spend hours manually sorting product prices to find budget-friendly items.
-The Solution: This Python script automatically categorizes products as 'Affordable' or 'Premium' based on custom price thresholds.
-How to use:
-Change the product_price list with your own inventory data.
-Run the script and get instant insights.
-=======
-# Price Filter Automation
+# Python Automation Lab
 
-## The Problem
-E-commerce owners spend hours manually sorting product prices to find budget-friendly items.
+## 1. Price Filter & Discount Automation
+This tool helps e-commerce owners to:
+- Categorize products as **'Affordable'** or **'Premium'** based on custom thresholds.
+- Automatically calculate a **10% discount** for premium items (priced above 1000).
 
-## The Solution
-This Python script automatically categorizes products as **'Affordable'** or **'Premium'** based on custom price thresholds.
+### Features:
+- `categorize_price()`: Easily sort your inventory data.
+- `apply_discount()`: Automated discount calculation for high-end products.
 
-## How to use
-1. Change the `product_price` list with your own inventory data.
-2. Run the script and get instant insights.
->>>>>>> f75acbfee6db07c6164346858453bef82c7eea83
+### How to use:
+1. Clone this repository.
+2. Update the `my_data` list in `price_filter.py` with your inventory.
+3. Run the script: `python price_filter.py`
