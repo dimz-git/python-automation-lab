@@ -8,6 +8,7 @@ def categorization_price(price_list, threshold=500):
 #function for apply_discount
 def apply_discount(price_list):
     for price in price_list:
+        
         if price > 1000:
             new_price = price *0.9
             print(f"special pricer (10% Off): {new_price}")
